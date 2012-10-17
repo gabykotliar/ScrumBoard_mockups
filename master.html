@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style type="text/css" >
+
+            /*
+                gray: #f2f2f2
+                blue: #00a1cb
+                */
+            body
+            {
+                padding: 0;
+                margin: 0;
+                font-family: 'Arial Narrow', 'Nimbus Sans L', sans-serif;
+            }
+
+            #header
+            {
+                background: #00a1cb;
+                color: white;
+                padding: 0.2em;
+                height: 1.6em;
+            }
+
+            #header #logo
+            {
+                font-weight: bold;
+                font-size: 1.3em;
+                float: left;
+            }
+
+            #header #commandBar
+            {
+                float: left;
+                margin-left: 2em;
+            }
+
+            #header #commandBar input 
+            {
+                width: 15em;
+            }
+
+            #header nav
+            {
+                float: left;
+                margin-left: 2em;
+            }
+
+            #header nav a:link
+            {
+                text-decoration: none;
+                color: white
+            }
+
+            #header #notifications
+            {
+                float: right;
+                margin-right: 2em;
+                font-weight: bold
+            }
+
+            #header #user
+            {
+                float: right;
+                margin-right: 2em;
+                font-weight: bold
+            }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <a id="logo"><span >Scrumboard</span></a>
+
+        <form id="commandBar">
+            <input type="text" value="Search or type a command" />
+        </form>
+
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+        <span id="user">
+            <img height="25" width="25" src="https://trello-avatars.s3.amazonaws.com/dc36ac0bb5074c0b8600c93cba508d70/30.png" alt="Gabriel Kotliar (gabrielkotliar)" title="Gabriel Kotliar (gabrielkotliar)">
+        </span>
+
+        <span id="notifications">Notifications</span>
+        
+    </div>
+    
+</body>
+</html>
